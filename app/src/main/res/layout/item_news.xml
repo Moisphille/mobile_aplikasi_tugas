@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download__1_">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="97pt"
+        android:layout_height="55pt"
+        android:layout_margin="1dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gkl41_logo_livin___koleksilogo_com" />
+
+    <TextView
+        android:id="@+id/headlineTextView"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/headlineTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@android:id/accessibilityActionScrollDown"
+        android:text="@string/headline_news"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
